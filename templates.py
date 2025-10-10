@@ -69,7 +69,7 @@ PROJECT_STRUCTURE = {
     ]
 }
 
-# Root-level files (already at project root)
+# Root-level files 
 ROOT_FILES = [
     ".env",
     ".gitignore",
