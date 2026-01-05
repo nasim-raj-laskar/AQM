@@ -1,6 +1,0 @@
-INFLUX_URL = "http://localhost:8086"
-INFLUX_TOKEN = "PUT_YOUR_TOKEN_HERE"
-INFLUX_ORG = "fyp"
-INFLUX_BUCKET = "air_quality"
-
-WINDOW_SIZE = 10

@@ -9,3 +9,4 @@ fastapi
 pydantic
 influxdb-client
 uvicorn
+python-dotenv
