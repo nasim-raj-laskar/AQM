@@ -1,0 +1,43 @@
+
+services:
+  influxdb:
+    image: influxdb:2.7
+    container_name: influxdb
+    ports:
+      - "8086:8086"
+    volumes:
+      - influxdb_data:/var/lib/influxdb2
+    networks:
+      - aq-net
+
+  backend:
+    build: .
+    container_name: aq-backend
+    env_file:
+      - .env
+    depends_on:
+      - influxdb
+    ports:
+      - "8000:8000"
+    networks:
+      - aq-net
+
+  grafana:
+    image: grafana/grafana:latest
+    container_name: grafana
+    ports:
+      - "3000:3000"
+    depends_on:
+      - influxdb
+    volumes:
+      - grafana_data:/var/lib/grafana
+    networks:
+      - aq-net
+
+volumes:
+  influxdb_data:
+  grafana_data:
+
+networks:
+  aq-net:
+    driver: bridge
