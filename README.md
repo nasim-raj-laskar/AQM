@@ -213,12 +213,6 @@ Executes ML inference pipeline on sensor telemetry data.
 - **Anomaly Detection**: Isolation Forest (n_estimators=100)
 
 
-## Services
-
-- **Backend**: http://localhost:8000
-- **Grafana**: http://localhost:3000
-- **InfluxDB**: http://localhost:8086
-
 ## Project Structure
 
 ```
