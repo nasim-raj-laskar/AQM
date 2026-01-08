@@ -1,4 +1,4 @@
-# Air Quality Monitor
+# Air Quality Monitor (AQM)
 
 Distributed IoT environmental monitoring system implementing real-time air quality assessment through multi-sensor fusion, machine learning inference, and time-series analytics on ESP32-based edge nodes.
 
@@ -11,7 +11,7 @@ Distributed IoT environmental monitoring system implementing real-time air quali
 
 ## Overview
 
-The Air Quality Monitor (AOQ) represents a comprehensive IoT solution for environmental monitoring, combining embedded systems engineering, machine learning, and distributed computing principles. This system demonstrates the integration of edge computing with cloud-based analytics, implementing a complete data pipeline from sensor acquisition to visualization.
+The Air Quality Monitor represents a comprehensive IoT solution for environmental monitoring, combining embedded systems engineering, machine learning, and distributed computing principles. This system demonstrates the integration of edge computing with cloud-based analytics, implementing a complete data pipeline from sensor acquisition to visualization.
 
 The project showcases several advanced concepts:
 - **Edge AI Implementation**: Real-time machine learning inference on resource-constrained microcontrollers
