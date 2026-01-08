@@ -107,7 +107,7 @@ graph TD
 ### Docker Setup
 ```bash
 # Clone and navigate
-git clone <repository-url>
+git clone https://github.com/nasim-raj-laskar/AQ.git
 cd AOQ
 
 # Configure environment
